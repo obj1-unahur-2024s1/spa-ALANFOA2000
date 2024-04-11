@@ -51,7 +51,7 @@ object bruno {
         self.veElNoticiero()
     }
     method estaPerfecto() {
-        return self.esFeliz() and!self.tieneSed() and peso >= 50000 and peso <= 70000
+        return self.esFeliz() and!self.tieneSed() and peso.between(50000,70000)
     }
 }
 
